@@ -1,0 +1,43 @@
+# Ignore node_modules directory
+/node_modules
+
+# Ignore log files and other logs
+*.log
+logs
+log
+npm-debug.log*
+
+# Ignore environment-specific configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore generated build or dist directories
+/build
+/dist
+
+# Ignore OS and editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+
+# Ignore editor configuration files
+.editorconfig
+.idea/
+
+# Ignore dependency directories
+.pnp
+.pnp.js
+
+# Ignore runtime data
+pids
+logs
+results
+
+# Ignore pnpm's store directory
+.store/
+
+# Ignore Yarn 2 cache
+.yarn/cache
